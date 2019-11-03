@@ -6,12 +6,10 @@ public class StringUltilTest {
 
     public static void main(String[] args) {
 
-        String result = StringUltil.repeat( "Hola", 3 );
-        assertEquals(result, "HolaHolaHola");
+        assertEquals(StringUltil.repeat( "Hola", 3 ), "HolaHolaHola");
 
 
-        String result2 = StringUltil.repeat( "Hola", 1 );
-        assertEquals(result2, "Hola");
+        assertEquals(StringUltil.repeat( "Hola", 1 ), "Hola");
 //        if (result2.equals("HolaHol")){
 ////            System.out.println("ERROR");
 //            throw new RuntimeException("ERROR");

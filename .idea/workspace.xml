@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUltilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUltilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/utils/StringUltilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/utils/StringUltilTest.class" afterDir="false" />
     </list>
