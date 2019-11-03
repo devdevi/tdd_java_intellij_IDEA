@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUltilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUltilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/utils/StringUltil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/utils/StringUltilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/visaka/javatest/utils/StringUltil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/utils/StringUltilTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StringUtilTest">
     <configuration name="StringUltilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.utils.StringUltilTest" />
       <module name="javatest" />
@@ -70,8 +74,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.visaka.javatest.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.visaka.javatest.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.utils.StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="Application.StringUltilTest" />
       </list>
     </recent_temporary>

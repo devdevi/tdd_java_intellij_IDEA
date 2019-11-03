@@ -1,6 +1,6 @@
 package com.visaka.javatest.utils;
 
-public class StringUltil {
+public class StringUtil {
 
     public static String repeat(String str, int times ) {
         
