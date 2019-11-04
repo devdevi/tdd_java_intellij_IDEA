@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/payments/PaymentProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/payments/PaymentProcessorTest.class" afterDir="false" />
     </list>
