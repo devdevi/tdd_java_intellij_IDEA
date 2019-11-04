@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/player/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/player/PlayerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.visaka.javatest.payments" />
       <recent name="com.visaka.javatest.player" />
       <recent name="com.visaka.javatest.utils" />
     </key>
@@ -49,6 +52,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.visaka.javatest.payments" />
       <recent name="com.visaka.javatest.player" />
     </key>
   </component>
@@ -64,16 +68,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
-    <configuration name="StringUltilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.utils.StringUltilTest" />
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest.payment_is_wrong">
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.visaka.javatest.player.*" />
+          <option name="PATTERN" value="com.visaka.javatest.payments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.visaka.javatest.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.payments.PaymentProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest.payment_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.visaka.javatest.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.visaka.javatest.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_wrong" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
+        <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.StringUtilTest.repeat_string_negative" />
         <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="Application.StringUltilTest" />
       </list>
     </recent_temporary>
   </component>
