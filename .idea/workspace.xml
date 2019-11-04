@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/player/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/player/PlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/payments/PaymentProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/payments/PaymentProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/payments/PaymentProcessorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentProcessorTest.payment_is_wrong">
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
     <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
@@ -148,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.StringUtilTest.repeat_string_negative" />
         <item itemvalue="JUnit.StringUtilTest" />
