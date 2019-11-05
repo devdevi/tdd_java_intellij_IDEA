@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/discounts/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/discounts/PriceCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/discounts/PriceCalculatorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/discounts/PriceCalculatorShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/visaka/javatest/discounts/PriceCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/visaka/javatest/discounts/PriceCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/discounts/PriceCalculatorShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/discounts/PriceCalculatorShould.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

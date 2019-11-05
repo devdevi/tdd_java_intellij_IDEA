@@ -20,5 +20,14 @@ public class FizzBuzz {
         }
         return Integer.toString(number);
     }
-    
+
+    public static String fizzBuzz(int n) {
+
+        if (n % 3 == 0 ) return "Fizz";
+        return  null;
+    }
+
+
+//    REFACTOR
+
 }

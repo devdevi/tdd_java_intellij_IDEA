@@ -1,5 +1,7 @@
 package com.visaka.javatest.FizzBuzz;
 
+import static org.hamcrest.CoreMatchers.*;
+import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -36,5 +38,12 @@ public class FizzBuzzShould {
         assertEquals(FizzBuzz.getWord(31, 3), "31");
     }
 
+
+//    REFACTOR
+
+    @Test
+    public void  retonar_divisible_por_3() {
+        Assert.assertThat(FizzBuzz.fizzBuzz(15), is("Fizz"));
+    }
 
 }
