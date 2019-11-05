@@ -42,8 +42,17 @@ public class FizzBuzzShould {
 //    REFACTOR
 
     @Test
-    public void  retonar_divisible_por_3() {
-        Assert.assertThat(FizzBuzz.fizzBuzz(15), is("Fizz"));
+    public void  Fizz() {
+        Assert.assertThat(FizzBuzz.fizzBuzz(18), is("Fizz"));
+    }
+
+    @Test
+    public void  Buzz() {
+        Assert.assertThat(FizzBuzz.fizzBuzz(20), is("Buzz"));
+    }
+    @Test
+    public void  FizzBuzz() {
+        Assert.assertThat(FizzBuzz.fizzBuzz(15), is("FizzBuzz"));
     }
 
 }
