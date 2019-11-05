@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/javatest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javatest.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/discounts/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/discounts/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/discounts/PriceCalculatorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/visaka/javatest/discounts/PriceCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/visaka/javatest/discounts/PriceCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/discounts/PriceCalculatorShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/discounts/PriceCalculatorShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javatest" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.visaka.javatest.FizzBuzz" />
       <recent name="com.visaka.javatest.discounts" />
       <recent name="com.visaka.javatest.utils" />
       <recent name="com.visaka.javatest.payments" />
@@ -67,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
+  <component name="RunManager" selected="JUnit.FizzBuzzShould">
     <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
@@ -78,6 +84,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.visaka.javatest.utils" />
       <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.utils.DateUtilLeapYearShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.visaka.javatest.FizzBuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.visaka.javatest.FizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.FizzBuzz.FizzBuzzShould" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,21 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.visaka.javatest.player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.visaka.javatest.player" />
-      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.player.PlayerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
@@ -146,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzShould" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.DateUtilLeapYearShould" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
-        <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>
   </component>
