@@ -54,5 +54,9 @@ public class FizzBuzzShould {
     public void  FizzBuzz() {
         Assert.assertThat(FizzBuzz.fizzBuzz(15), is("FizzBuzz"));
     }
+    @Test
+    public void  number() {
+        Assert.assertThat(FizzBuzz.fizzBuzz(16), is("16"));
+    }
 
 }
