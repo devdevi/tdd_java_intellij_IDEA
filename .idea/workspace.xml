@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/service/MovieService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/movie/service/MovieServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/movie/service/MovieServiceShould.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/com/visaka/javatest" />
   </component>
   <component name="RecentsManager">

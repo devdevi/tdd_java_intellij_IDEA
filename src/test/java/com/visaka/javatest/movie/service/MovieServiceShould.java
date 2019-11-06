@@ -46,17 +46,19 @@ public class MovieServiceShould {
 //      Collecion de peliculas
         Collection<Movie>  movies = movieService.findMoviesByGenre(Genre.COMEDY);
 //      Lista de ids
-        List<Integer> moviesIds =  movies.stream().map(Movie::getId).collect(Collectors.toList());
-//        test
-        assertThat(moviesIds, CoreMatchers.is(Arrays.asList(3,6)));
+        //        test
+        assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(3,6)));
     }
 
     @Test
     public void return_movies_by_length() {
         Collection<Movie> movies = movieService.findMoviesByLength(119);
 
-        List<Integer> moviesIds = movies.stream().map(Movie::getId).collect(Collectors.toList());
-        assertThat(moviesIds, CoreMatchers.is(Arrays.asList(2,3,4,5,6)));
+        assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(2,3,4,5,6)));
+    }
+
+    private List<Integer> getMovieIds(Collection<Movie> movies) {
+        return movies.stream().map(Movie::getId).collect(Collectors.toList());
     }
 
 }
