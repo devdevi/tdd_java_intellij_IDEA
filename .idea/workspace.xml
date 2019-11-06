@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5abd53-5e7c-457f-8732-a8bfd4812f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/data/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/movie/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/movie/service/MovieServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/visaka/javatest/FizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/visaka/javatest/FizzBuzz/FizzBuzzShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/FizzBuzz/FizzBuzzShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/visaka/javatest/FizzBuzz/FizzBuzzShould.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -44,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.visaka.javatest.movie.service" />
       <recent name="com.visaka.javatest.FizzBuzz" />
       <recent name="com.visaka.javatest.discounts" />
       <recent name="com.visaka.javatest.utils" />
       <recent name="com.visaka.javatest.payments" />
-      <recent name="com.visaka.javatest.player" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -70,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzShould">
+  <component name="RunManager" selected="JUnit.MovieServiceShould">
     <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
@@ -101,6 +104,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.visaka.javatest.movie.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.visaka.javatest.movie.service" />
+      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.movie.service.MovieServiceShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatest" />
       <extension name="coverage">
@@ -112,22 +130,6 @@
       <option name="PACKAGE_NAME" value="com.visaka.javatest.payments" />
       <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.payments.PaymentProcessorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentProcessorTest.payment_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.visaka.javatest.payments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.visaka.javatest.payments" />
-      <option name="MAIN_CLASS_NAME" value="com.visaka.javatest.payments.PaymentProcessorTest" />
-      <option name="METHOD_NAME" value="payment_is_wrong" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieServiceShould" />
         <item itemvalue="JUnit.FizzBuzzShould" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.DateUtilLeapYearShould" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
-        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
       </list>
     </recent_temporary>
   </component>
